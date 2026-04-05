@@ -12,6 +12,24 @@ O projeto simula um fluxo de atendimento com três etapas principais:
 
 A aplicação é estruturada em abas (`Senhas`, `Atendentes`, `Relatório`) e uma página adicional de relatório detalhado.
 
+## Screenshots
+
+### Tela de Senhas
+
+![Tela de Senhas](./midia/Senhas.png)
+
+### Tela de Atendentes
+
+![Tela de Atendentes](./midia/Atendentes.png)
+
+### Tela de Relatório
+
+![Tela de Relatório](./midia/Relatorio.png)
+
+### Tela de Relatório Detalhado
+
+![Tela de Relatório Detalhado](./midia/Relatorio_Detalhado.png)
+
 ## Funcionalidades
 
 - Emissão de senhas por tipo:
@@ -142,24 +160,6 @@ npm run lint
 
 - O estado das filas e relatórios é mantido em memória no serviço `Senhas`.
 - Ao recarregar a aplicação, os dados retornam ao estado inicial.
-
-## Screenshots
-
-### Tela de Senhas
-
-![Tela de Senhas](./midia/Senhas.png)
-
-### Tela de Atendentes
-
-![Tela de Atendentes](./midia/Atendentes.png)
-
-### Tela de Relatório
-
-![Tela de Relatório](./midia/Relatorio.png)
-
-### Tela de Relatório Detalhado
-
-![Tela de Relatório Detalhado](./midia/Relatorio_Detalhado.png)
 
 ## Licença
 
