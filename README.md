@@ -164,3 +164,18 @@ npm run lint
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE`.
+
+## Grupo do Projeto
+
+Este projeto foi desenvolvido pelos alunos da Uninassau Graças Recife como parte da disciplina "Desenvolvimento de Alta Performance - Mobile" do curso de Análise e Desenvolvimento de Sistemas. Segue a lista abaixo dos membros que compõem o grupo:
+
+
+| Matrícula | Alunos |
+| :--- | :--- |
+| 01747462 | Adriano Vinícius Bispo da Silva|
+| ⁠01645290 | Emilly Dantas da Silva Bento |
+| 01567091 | Eychila Meirelle da Silva |
+| 01755006 | Eric Santos Bispo da Silva |
+| 01747566 | Iasmin Burgos de Souza |
+| 01539550 | Lucas Pires de Andrade |
+| 01750308 | Paulo Renato Pereira Bezerra |
