@@ -1,17 +1,63 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
+<ion-header class="header">
+  <ion-title>
+    RELATÓRIO
+  </ion-title>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="background">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <div class="caixas">
+
+    <ion-card class="caixa-senhas-totais">
+      <div class="senhas-totais">
+        <ion-card-header class="title">SENHAS EMITIDAS</ion-card-header>
+        <ion-card-content>{{senhas.senhasTotal}}</ion-card-content>
+      </div>
+      <div class="senhas-totais">
+        <ion-card-header class="title">SENHAS ATENDIDAS</ion-card-header>
+        <ion-card-content>{{senhas.atendidasTotal}}</ion-card-content>
+      </div>
+    </ion-card>
+
+    <ion-card class="senhas-emitidas">
+      <ion-card-header>SENHAS EMITIDAS</ion-card-header>
+      <div>
+        <div class="senhas">
+          <ion-card-content>{{senhas.senhasPrior}}</ion-card-content>
+          <ion-label>SP</ion-label>
+        </div>
+        <div class="senhas">
+          <ion-card-content>{{senhas.senhasExame}}</ion-card-content>
+          <ion-label>SE</ion-label>
+        </div>
+        <div class="senhas">
+          <ion-card-content>{{senhas.senhasGeral}}</ion-card-content>
+          <ion-label>SG</ion-label>
+        </div>
+      </div>
+    </ion-card>
+
+    <ion-card class="senhas-atendidas">
+      <ion-card-header>SENHAS ATENDIDAS</ion-card-header>
+      <div>
+        <div class="senhas">
+          <ion-card-content>{{senhas.atendidasPrior}}</ion-card-content>
+          <ion-label>SP</ion-label>
+        </div>
+        <div class="senhas">
+          <ion-card-content>{{senhas.atendidasExame}}</ion-card-content>
+          <ion-label>SE</ion-label>
+        </div>
+        <div class="senhas">
+          <ion-card-content>{{senhas.atendidasGeral}}</ion-card-content>
+          <ion-label>SG</ion-label>
+        </div>
+      </div>
+    </ion-card>
+
+    <ion-card class="relatorio">
+      <ion-card-header> RELATÓRIO DETALHADO</ion-card-header>
+      <ion-card-content><ion-button class="button" shape="round" (click)="relatorioDetalhado()">VISUALIZAR</ion-button></ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>
